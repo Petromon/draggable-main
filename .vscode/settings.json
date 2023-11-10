@@ -1,0 +1,25 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    ".rollup.cache": true,
+    "coverage": true
+  },
+  "search.exclude": {
+    "node_modules/**/*": true,
+    ".rollup.cache/**/*": true,
+    "coverage/**/*": true,
+    "build/**/*": true,
+    "docs/**/*": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false,
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "javascript.validate.enable": false,
+  "eslint.validate": ["javascript"]
+}

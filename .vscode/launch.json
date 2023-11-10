@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Jest Tests",
+      "program": "${workspaceRoot}/node_modules/.bin/jest",
+      "console": "integratedTerminal",
+      "args": [
+          "-i",
+          "--watchAll"
+      ],
+    }
+  ]
+}

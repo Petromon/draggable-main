@@ -1,0 +1,23 @@
+{
+  "extends": "@shopify/typescript-configs/library",
+  "compilerOptions": {
+    "composite": true,
+    "emitDeclarationOnly": true,
+    "outDir": "build/ts",
+    "rootDir": "./",
+    "strictFunctionTypes": false,
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": false,
+    "paths": {
+      "shared/*": ["./src/shared/*"],
+      "helper": ["./test/helper.ts"]
+    }
+  },
+  "include": [
+    "./config/typescript/**/*",
+    "./src/**/*",
+    "./test/**/*",
+    "./rollup.config.ts",
+    "./rollup.development.config.ts"
+  ]
+}

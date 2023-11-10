@@ -1,0 +1,13 @@
+{
+  "presets": [
+    [
+      "babel-preset-shopify/web",
+      {
+        "babel-preset-shopify/web": {
+          "modules": false,
+          "useBuiltIns": "entry"
+        }
+      }
+    ]
+  ]
+}
